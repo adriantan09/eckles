@@ -1,6 +1,6 @@
 import React from 'react';
 import { useCookies } from 'react-cookie';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Typography from '@mui/material/Typography';
 import Table from '@mui/material/Table';
@@ -13,11 +13,8 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import { isTinyMobileWidth, isDesktopWidth } from '../../util/screen';
 
-import SubNav from '../../component/SubNav';
-
 import { Context, useContext } from '../../context';
 import makePage from '../../component/makePage';
-import config from '../../config';
 
 const TimetableLectures = () => {
   const { getters } = useContext(Context);

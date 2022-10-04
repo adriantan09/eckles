@@ -2,10 +2,8 @@ import React from 'react';
 import { useCookies } from 'react-cookie';
 import { useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
-import FavoriteIcon from '@mui/icons-material/Favorite';
 import TheatersIcon from '@mui/icons-material/Theaters';
 import SchoolIcon from '@mui/icons-material/School';
-import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import { Outlet, useParams } from 'react-router-dom';
 import { Context, useContext } from '../../context';
 

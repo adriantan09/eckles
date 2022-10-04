@@ -1,7 +1,7 @@
 import Button from '@mui/material/Button';
 import { tutorialUrl } from '../../util/values';
 
-import { isHalfScreenWidth, isTinyMobileWidth, isMobileWidth, isBigDesktopWidth, isDesktopWidth } from '../../util/screen';
+import { isMobileWidth, isBigDesktopWidth, isDesktopWidth } from '../../util/screen';
 
 export const generateContent = (getters, by) => {
   const opposingPageType = (by === 'week') ? 'topic' : 'week';

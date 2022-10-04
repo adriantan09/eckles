@@ -2,8 +2,6 @@ import React from 'react';
 import CircularProgress from '@mui/material/CircularProgress';
 import { styled } from '@mui/system';
 
-import mainlogo from '../asset/mainlogo.png';
-
 const LoadingWrapper = styled('div')({
   margin: '0 auto',
   marginTop: '10%',
@@ -22,7 +20,6 @@ const AppLoad = () => {
   setTimeout(() => setError(true), 10000);
   return (
     <LoadingWrapper>
-      {/*<LoadingImage className={{}} src={mainlogo} />*/}
       {!error && (
         <CircularProgress color="inherit" />
       )}

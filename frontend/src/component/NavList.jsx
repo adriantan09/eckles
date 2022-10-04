@@ -1,7 +1,5 @@
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ForumIcon from '@mui/icons-material/Forum';
-import HomeIcon from '@mui/icons-material/Home';
-import GradingIcon from '@mui/icons-material/Grading';
 import HearingIcon from '@mui/icons-material/Hearing';
 import SubjectIcon from '@mui/icons-material/Subject';
 import ConstructionIcon from '@mui/icons-material/Construction';
@@ -12,7 +10,6 @@ import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import WorkIcon from '@mui/icons-material/Work';
 import BiotechIcon from '@mui/icons-material/Biotech';
 import CollectionsIcon from '@mui/icons-material/Collections';
-import StyleIcon from '@mui/icons-material/Style';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 

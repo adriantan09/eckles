@@ -1,7 +1,5 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
-import Divider from '@mui/material/Divider';
-
 import Youtube from '../../component/Youtube';
 import makePage from '../../component/makePage';
 

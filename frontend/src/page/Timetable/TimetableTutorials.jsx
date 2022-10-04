@@ -1,6 +1,5 @@
 import React from 'react';
 import { useCookies } from 'react-cookie';
-import { useNavigate } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 
 import Table from '@mui/material/Table';
@@ -15,7 +14,6 @@ import Button from '@mui/material/Button';
 import { Context, useContext } from '../../context';
 import makePage from '../../component/makePage';
 import { isTinyMobileWidth } from '../../util/screen';
-import config from '../../config';
 
 const TimetableTutorials = () => {
   const { getters } = useContext(Context);

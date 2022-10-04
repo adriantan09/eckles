@@ -9,7 +9,6 @@ import BuildIcon from '@mui/icons-material/Build';
 import CodeIcon from '@mui/icons-material/Code';
 
 import SubNavWrapper from '../../component/SubNavWrapper';
-import makePage from '../../component/makePage';
 
 const HelpResources = ({ }) => {
   const menu = [

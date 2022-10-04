@@ -1,7 +1,5 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import Drawer from '@mui/material/Drawer';
-import AppBar from '@mui/material/AppBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
 import { Outlet, useParams, useLocation, useNavigate } from 'react-router-dom';
@@ -11,7 +9,6 @@ import { Context, useContext } from '../context';
 import Header from '../component/Header';
 import Navbar from '../component/Navbar';
 import config from '../config';
-import { apiCall } from '../util/api';
 import { isMobileWidth, isDesktopWidth } from '../util/screen';
 
 const drawerWidth = 230;

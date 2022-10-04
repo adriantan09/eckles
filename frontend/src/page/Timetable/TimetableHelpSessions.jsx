@@ -1,26 +1,10 @@
 import React from 'react';
-import Box from '@mui/material/Box';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 
-import SubNav from '../../component/SubNav';
 import { Context, useContext } from '../../context';
 import makePage from '../../component/makePage';
 import { isTinyMobileWidth } from '../../util/screen';
 import SetOfTables from '../../component/SetOfTables';
-import config from '../../config';
 
 const TimetableHelpSessions = () => {
   const { getters } = useContext(Context);

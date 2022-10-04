@@ -1,26 +1,19 @@
 import { HashLink as Link } from 'react-router-hash-link';
 import React from 'react';
 import { useCookies } from 'react-cookie';
-import { useNavigate, useLocation, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import TheatersIcon from '@mui/icons-material/Theaters';
-import SchoolIcon from '@mui/icons-material/School';
-import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 
 import Typography from '@mui/material/Typography';
 import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 
-import SubNavWrapper from '../../component/SubNavWrapper';
 import ContentCards from '../../component/ContentCards';
 import makePage from '../../component/makePage';
 import { Context, useContext } from '../../context';
 import Youtube from '../../component/Youtube';
 import { getYoutubeCodeFromUrl } from '../../util/content';
-import TitleCard from '../../component/TitleCard';
 import SectionHeader from '../../component/SectionHeader';
 
 const ContentLecturesSingle = ({}) => {
